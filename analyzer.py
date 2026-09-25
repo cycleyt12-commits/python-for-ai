@@ -123,7 +123,7 @@ for index, row in df.iterrows():
     total = calculate_total(row['quantity'], row['price'])
     totals.append(total)
 
-# Add totals to our data
+# Add the totals to our data
 df['total'] = totals
 
 # Display with formatted totals
@@ -137,7 +137,7 @@ grand_total = df['total'].sum()
 formatted_grand_total = format_currency(grand_total)
 print(f"\nGrand Total: {formatted_grand_total}")
 
-
+print(grand_total)
 
 """
 How imports work
@@ -169,7 +169,7 @@ This is how real Python projects work. You’re ready to build bigger things!
 
 #EXERCISE
 """
-Build a project that extracts data from another file using import
+Build a small project that extracts data from another file using import
 (like I did with helpers) and a csv file. Get creative and make it somewhat how I built
 it in here (like using the csv file for data and helpers.py to calculate totals)
 Good luck!
