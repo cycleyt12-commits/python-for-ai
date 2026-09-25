@@ -203,3 +203,11 @@ if zipfile.is_zipfile(file):
         print("\nFiles inside:")
         for name in z.namelist():
             print(name)
+
+# IGNORE THIS MESSAGE AND CODE THAT I AM GOING TO WRITE AFTER, IT IS JUST A GITHUB TEST
+
+print("Hello world")
+print("This is a github test")
+
+"UPDATES"
+
